@@ -1,5 +1,9 @@
+import org.testng.annotations.Test;
+
 public class TestJenkins2 {
-    public static void main(String[] args) {
+
+    @Test
+    public void test2(){
         countDown(10);
     }
     public static void countDown(int n){

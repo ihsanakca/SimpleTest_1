@@ -1,5 +1,9 @@
+import org.testng.annotations.Test;
+
 public class TestJenkins {
-    public static void main(String[] args) {
+
+    @Test
+    public void test1(){
         System.out.println("Hello World");
     }
 }
