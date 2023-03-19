@@ -10,6 +10,6 @@ public class ChromeOptionsForSelenium_4 {
         WebDriver driver=new ChromeDriver(co);
         driver.get("htpps://www.google.com/");
         System.out.println( driver.getTitle());
-       // driver.quit();
+        driver.quit();
     }
 }
